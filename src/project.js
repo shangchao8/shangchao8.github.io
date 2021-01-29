@@ -2,8 +2,13 @@
  * 分数加成
  * @type {number}
  */
-let extraScore = 1;
+let extraScore;
 let extraScoreStr = '';
+
+while (isNaN(extraScore)) {
+    extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+    extraScore = parseInt(extraScoreStr);
+}
 
 window.__require = function e(t, n, o) {
     function c(i, r) {
