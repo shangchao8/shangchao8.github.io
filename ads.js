@@ -7,6 +7,7 @@ function noAdGoToScene() {
     var launchScene = GameConfig.launchScene;
     var Bros = GameConfig.Bros;
     var caS = GameConfig.caS;
+/*
     cc.director.loadScene(launchScene, null,
         function() {
 
@@ -30,6 +31,6 @@ function noAdGoToScene() {
 
         }
     );
-
+*/
 
 }
